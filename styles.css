@@ -3,35 +3,23 @@ body {
   margin: 2rem;
   max-width: 900px;
   line-height: 1.5;
-
-  background: #0f1115;
-  color: #e8eaf0;
-}
-
-a {
-  color: #8ab4ff;
-}
-
-a:hover {
-  color: #bcd3ff;
-  text-decoration: underline;
 }
 
 nav {
   position: sticky;
   top: 0;
-  background: rgba(15, 17, 21, 0.95);
+  background: white;
   padding: 0.75rem 0;
   margin-bottom: 1.5rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 nav a {
   text-decoration: none;
   margin-right: 1rem;
-  font-weight: 600;
+  color: #0b57d0;
+  font-weight: 500;
 }
 
-h1, h2, h3 {
-  color: #f2f4ff;
+nav a:hover {
+  text-decoration: underline;
 }
